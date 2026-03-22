@@ -1,0 +1,71 @@
+/* ระยะห่างระหว่างส่วน */
+section {
+    padding: 60px 0;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Footer Styles - สไตล์สีเข้มและขาวล้วน */
+.main-footer {
+    background-color: #1a1a1a;
+    color: #ffffff !important;
+    padding: 60px 0 20px 0;
+}
+
+.footer-title {
+    color: #ffffff !important;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+/* จัดการสีขาวให้ทุก Element ใน Footer */
+.main-footer p, 
+.main-footer i, 
+.main-footer a {
+    color: #ffffff !important;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.contact-details p {
+    margin-bottom: 15px;
+}
+
+.contact-details i {
+    width: 25px;
+}
+
+/* Social Icons Only - จัดไอคอนไปทางขวาให้พอดีดิ */
+.social-icons-only {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.social-icons-only i {
+    font-size: 1.8rem;
+}
+
+.social-icons-only a:hover i {
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+/* ส่วนลิขสิทธิ์ด้านล่าง */
+.footer-bottom {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+}
+
+.footer-bottom p {
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
